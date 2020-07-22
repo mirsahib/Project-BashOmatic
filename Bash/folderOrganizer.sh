@@ -55,8 +55,9 @@ function organize(){
             fi
         fi
     done
+    echo "Folder organized successfully"
     #move the icon.ico file to desired location and edit the file path below
-    notify-send -i '/home/mirsahib/icon.ico' 'Downloads folder is now organized'
+    #notify-send 'Folder Organized' 'Downloads folder is now organized'
 }
 
 if [ "$PWD" = "/home/mirsahib/Downloads"  ];
