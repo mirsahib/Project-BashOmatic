@@ -30,4 +30,7 @@ crontab -e
 MAILFROM=username@gmail.com
 MAILTO=username@gmail.com
 ```
+NB: You need to have ssmtp configure to send feedback to your gmail.
+
+Follow [this](https://www.digitalocean.com/community/questions/how-to-send-emails-from-a-bash-script-using-ssmtp), [this](https://unix.stackexchange.com/questions/202934/how-to-send-mail-to-gmail-account-using-ssmtp) link to install and configure ssmtp
 
