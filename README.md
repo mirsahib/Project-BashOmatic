@@ -32,5 +32,5 @@ MAILTO=username@gmail.com
 ```
 NB: You need to have ssmtp configure to send feedback to your gmail.
 
-Follow [this](https://www.digitalocean.com/community/questions/how-to-send-emails-from-a-bash-script-using-ssmtp), [this](https://unix.stackexchange.com/questions/202934/how-to-send-mail-to-gmail-account-using-ssmtp) link to install and configure ssmtp
+Follow [this](https://www.digitalocean.com/community/questions/how-to-send-emails-from-a-bash-script-using-ssmtp), [this](https://unix.stackexchange.com/questions/202934/how-to-send-mail-to-gmail-account-using-ssmtp),[this](https://galleryserverpro.com/use-gmail-as-your-smtp-server-even-when-using-2-factor-authentication-2-step-verification/#:~:text=Enable%20SMTP%20server%20with%202,your%20password%20and%20your%20phone.) link to install and configure ssmtp
 
