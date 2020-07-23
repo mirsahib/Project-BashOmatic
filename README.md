@@ -24,7 +24,8 @@ crontab -e
 # m h d mon week command
 0 12 * * 1 /home/username/Scripts/folderOrganizer.sh
 ```
-the code means 0 min 12 hours,monday of every week
+this means run the above script on every monday 12 pm
+
 5. (Option) If you want to send feedback message to your gmail account add this code above step 4
 
 ```
