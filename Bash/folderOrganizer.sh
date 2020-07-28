@@ -1,7 +1,7 @@
 #! /bin/bash
 
 function organize(){
-    
+    rename 's/ /_/g' *
     for file in "$PWD"/*;
     do 
         if [[ -d "$file" ]];then
@@ -45,7 +45,7 @@ function organize(){
                 fi
             else
                 if [[ -d "$PWD"/Miscellaneous ]];then 
-                    mv $file "$PWD"/Miscellaneous 
+                    mv $file "$PWD"/Miscellaneous
                     echo "$file moved"
                 else
                     mkdir "$PWD"/Miscellaneous
@@ -55,17 +55,17 @@ function organize(){
             fi
         fi
     done
-    echo "Folder organized successfully"
+    echo "BashOmatic run successfully"
     #move the icon.ico file to desired location and edit the file path below
     #notify-send 'Folder Organized' 'Downloads folder is now organized'
 }
 
 if [ "$PWD" = "/home/mirsahib/Downloads"  ];
 then 
-    echo "in the directory"
+    echo "BashOmatic is in the directory"
     organize
 else
-    echo " not in directory"
+    echo "BashOmatic is not in directory"
     cd "/home/mirsahib/Downloads"
     organize
 fi
