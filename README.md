@@ -23,13 +23,13 @@ Automation using Bash and Python script
 
 Optional Cron job
 
-4. From terminal run
+6. From terminal run
 
 ```
 crontab -e
 ```
 
-5. Add below code
+7. Add below code
 
 ```
 # m h d mon week command
@@ -38,7 +38,7 @@ crontab -e
 
 this means run the above script on every monday 12 pm
 
-6. (Option) If you want to send feedback message to your gmail account add this code above step 4
+8. (Option) If you want to send feedback message to your gmail account add this code above step 4
 
 ```
 MAILFROM=username@gmail.com
