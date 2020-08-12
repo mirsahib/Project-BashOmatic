@@ -15,21 +15,13 @@ Automation using Bash and Python script
 
 ### How to run FolderOrganizer
 
-1. Install rename command `sudo apt install rename`
-2. Create a folder called Scripts in you `home/username` directory
-3. Copy the file folderOrganizer.sh to `home/username/Scripts` directory and replace this line with appropiate username
+1. Clone the repo : `git clone https://github.com/mirsahib/Project-BashOmatic.git`
+2. Goto the repo : `cd Project-BashOmatic/Bash`
+3. Install rename command `sudo apt install rename` 
+4. Change file mode `chmod +x fileOrganizer`
+5. Run the script `./fileOrganizer <your username>`
 
-```
-if [ "$PWD" = "/home/username/Downloads"  ];
-then
-    echo "BashOmatic is in the directory"
-    organize
-else
-    echo "BashOmatic is not in directory"
-    cd "/home/username/Downloads"
-    organize
-fi
-```
+Optional Cron job
 
 4. From terminal run
 

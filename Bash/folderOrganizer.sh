@@ -60,12 +60,12 @@ function organize(){
     #notify-send 'Folder Organized' 'Downloads folder is now organized'
 }
 
-if [ "$PWD" = "/home/username/Downloads"  ];
+if [ "$PWD" = "/home/$1/Downloads"  ];
 then 
     echo "BashOmatic is in the directory"
     organize
 else
     echo "BashOmatic is not in directory"
-    cd "/home/username/Downloads"
+    cd "/home/$1/Downloads"
     organize
 fi
