@@ -33,7 +33,7 @@ crontab -e
 
 ```
 # m h d mon week command
-0 12 * * 1 /home/username/Scripts/folderOrganizer.sh
+0 12 * * 1 /home/username/Scripts/folderOrganizer.sh <your username>
 ```
 
 this means run the above script on every monday 12 pm
